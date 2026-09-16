@@ -43,10 +43,11 @@ print("result4:", result4)
 
 
 print("============== Scope ===============")
+c = 100  # 3
 
 
-def calculate(a, b):
-    c = a * b
+def calculate(a, b):  # 2
+    c = a * b  # 1
     print(f"The c value {c}")
 
 

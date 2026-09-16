@@ -7,9 +7,9 @@ result = type(message)
 print("result:", result)
 
 ''' In Python, there are builtins tools:
-    (1) TYPES > int, float, str, list, dict
-    (2) FUNCTION > print(), len(), type()
-    (3) CONSTANTS > True, False, None
+    (1) TYPES > int, float, str, list, dict ...
+    (2) FUNCTION > print(), len(), type(), str(), int(), float() ...
+    (3) CONSTANTS > True, False, None 
 '''
 
 print(dir(__builtins__))
