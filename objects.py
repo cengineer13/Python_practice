@@ -26,3 +26,26 @@ print("result math ceil1", result1)
 
 result1 = math.ceil(98.7)
 print("result math ceil2", result1)
+
+
+print('============= Error handling objects ============')
+car_dict = dict(name="Toyoto", year=2026, electric=True)
+
+try:
+    print("passed here")
+
+    a = car_dict.speed
+    result = car_dict["origin"]
+    print(result)
+
+except Exception as err:
+    print(f"Error was found: {err}")
+
+# except (KeyError, AttributeError) as err:
+#     print(f"Error found:", err)
+# except ArithmeticError as err:
+#     print("No speed found:", err)
+else:
+    print("Executed succesfully without errors!")
+finally:
+    print("Final closing logic")
